@@ -17,21 +17,49 @@
     <title>Frontend Mentor | Crowdfunding product page</title>
   </head>
   <body>
-    <header>
-      <div class="header-container">
-        <a href="" class="logo">
-          <img src="/images/logo.svg" alt="logo" />
-        </a>
+    <div class="hero">
+      <img
+        src="/images/image-hero-desktop.jpg"
+        alt="mac computer image"
+        class="hero-desktop-img"
+      />
+      <img
+        src="/images/image-hero-mobile.jpg"
+        alt="mac computer image"
+        class="hero-mobile-img"
+      />
 
-        <nav>
-          <ul class="nav-menu">
-            <li class="menu-item"><a href="">About</a></li>
-            <li class="menu-item"><a href="">Discover</a></li>
-            <li class="menu-item"><a href="">Get Started</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header>
+      <header>
+        <div class="header-container">
+          <a href="" class="logo">
+            <img src="/images/logo.svg" alt="logo" />
+          </a>
+
+          <nav>
+            <ul class="nav-menu">
+              <li class="menu-item"><a href="">About</a></li>
+              <li class="menu-item"><a href="">Discover</a></li>
+              <li class="menu-item"><a href="">Get Started</a></li>
+            </ul>
+          </nav>
+
+          <button class="hamburger-btn">
+            <svg class="menu-btn" width="16" height="15">
+              <g fill="#FFF" fill-rule="evenodd">
+                <path d="M0 0h16v3H0zM0 6h16v3H0zM0 12h16v3H0z" />
+              </g>
+            </svg>
+
+            <svg class="close-btn" width="14" height="15">
+              <g fill="#FFF" fill-rule="evenodd">
+                <path d="M2.404.782l11.314 11.314-2.122 2.122L.282 2.904z" />
+                <path d="M.282 12.096L11.596.782l2.122 2.122L2.404 14.218z" />
+              </g>
+            </svg>
+          </button>
+        </div>
+      </header>
+    </div>
     Mastercraft Bamboo Monitor Riser A beautiful & handcrafted monitor stand to
     reduce neck and eye strain. Back this project Bookmark $89,914 of $100,000
     backed 5,007 total backers 56 days left About this project The Mastercraft
@@ -90,5 +118,7 @@
     campaign is completed. Got it!
 
     <!-- Success modal end -->
+
+    <script src="js/app.js"></script>
   </body>
 </html>
