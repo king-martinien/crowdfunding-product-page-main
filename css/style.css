@@ -1,0 +1,46 @@
+:root {
+  /*
+        COLORS
+    */
+  --clr-moderate-cyan: hsl(176, 50%, 47%);
+  --clr-dark-cyan: hsl(176, 72%, 28%);
+  --clr-black: hsl(0, 0%, 0%);
+  --clr-white: hsl(0, 0%, 100%);
+  --clr-dark-gray: hsl(0, 0%, 48%);
+  /*
+    FONT SIZE
+  */
+  --fz-body: 16px;
+  /*
+    FONTS WEIGHT
+  */
+  --w-regular: 400;
+  --w-medium: 500;
+  --w-bold: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Commissioner;
+  font-size: var(--fz-body);
+}
+
+*::-moz-selection {
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-white);
+}
+
+*::selection {
+  background-color: var(--clr-dark-cyan);
+  color: var(--clr-white);
+}
+
+.container {
+  border: 2px solid red;
+  width: 75%;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=style.css.map */
